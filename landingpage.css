@@ -1,0 +1,167 @@
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+.header {
+    background: url('https://images.unsplash.com/photo-1522199710521-72d69614c702?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nav-menu li {
+    margin: 0 20px;
+}
+
+.nav-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.nav-menu a:hover {
+    background-color: #ebe5e57e;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about-section {
+    background-color: #DAD7CD;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-section h2 {
+    color: #333;
+}
+
+/* Services Section */
+.services-section {
+    padding: 50px 0;
+    background-color: #A3B18A;
+}
+
+.service-columns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-item {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.service-item img {
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.service-item h3 {
+    color: #333;
+}
+
+/* Projects Section */
+.projects-section {
+    background-color: #588157;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.project-gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-item {
+    width: 30%;
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    color: #333;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #3A5A40;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section input, .contact-section textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact-section button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-section button:hover {
+    background-color: #555;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #344E41;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
